@@ -1,0 +1,18 @@
+{
+  "name": "title-and-type",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "./bin/build"
+  },
+  "dependencies": {
+    "dompurify": "^2.0.11",
+    "front-matter": "^4.0.2",
+    "jsdom": "^16.2.2",
+    "marked": "^1.1.0",
+    "tailwindcss": "^1.4.4"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.14"
+  }
+}
