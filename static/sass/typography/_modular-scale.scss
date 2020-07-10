@@ -1,0 +1,68 @@
+// Adapted from typographyhandbook.com
+
+// Modular scale with base of 1.25em and 1.25 scale factor
+$font-size-scale-lg: (
+    h1: 3.815em,
+    h2: 3.052em,
+    h3: 2.441em,
+    h4: 1.953em,
+    h5: 1.563em,
+    p: 1.25em,
+    small: 0.8em,
+);
+
+// Modular scale with base of 1.25em and 1.25 scale factor
+$font-size-scale-md: (
+    h1: 3.052em,
+    h2: 2.441em,
+    h3: 1.953em,
+    h4: 1.563em,
+    p: 1.25em,
+    small: 0.8em,
+);
+
+// Modular scale with base of 1em and 1.2 scale factor
+$font-size-scale-sm: (
+    h1: 2.488em,
+    h2: 2.074em,
+    h3: 1.728em,
+    h4: 1.44em,
+    h5: 1.2em,
+    p: 1em,
+    small: 0.833em,
+);
+
+$breakpoint-medium: 75em;
+$breakpoint-small: 45em;
+
+@mixin size($level) {
+    @if map-has-key($font-size-scale-lg, $level) {
+        font-size: map-get($font-size-scale-lg, $level);
+    } @else {
+        font-size: map-get($font-size-scale-lg, p);
+    }
+
+    @media (max-width: $breakpoint-medium) {
+        @if map-has-key($font-size-scale-md, $level) {
+            font-size: map-get($font-size-scale-md, $level);
+        } @else {
+            font-size: map-get($font-size-scale-md, p);
+        }
+    }
+
+    @media (max-width: $breakpoint-small) {
+        @if map-has-key($font-size-scale-sm, $level) {
+            font-size: map-get($font-size-scale-sm, $level);
+        } @else {
+            font-size: map-get($font-size-scale-sm, p);
+        }
+    }
+}
+
+$text-selectors: (h1, h2, h3, h4, h5, h6, p);
+
+@each $selector in $text-selectors {
+    #{$selector} {
+        @include size($selector);
+    }
+}

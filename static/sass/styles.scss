@@ -1,0 +1,51 @@
+@use 'normalize.css/normalize.css';
+
+@use 'border-box';
+
+@use 'typography/fonts';
+@use 'typography/modular-scale';
+
+$background: #FFFDE7;
+$dark-gray: #212121;
+$dark-blue: #166ACA;
+$light-blue: #BBDEFB;
+$light-gray: #CFD8DC;
+
+html {
+    font-family: WorkSans;
+    font-size: 100%;
+    background-color: $background;
+    color: $dark-gray;
+    line-height: 1;
+}
+
+/* ::selection {
+    background-color: $light-gray;
+} */
+
+a {
+    color: $dark-blue;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: PlayfairDisplay;
+    font-weight: 500;
+}
+
+article {
+    max-width: 70ch;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#{modular-scale.$text-selectors} {
+    margin-top: 0;
+    margin-bottom: 0;
+}
