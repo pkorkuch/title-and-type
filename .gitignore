@@ -119,3 +119,5 @@ dist
 
 # title-and-type build output
 build
+# Local Netlify folder
+.netlify
