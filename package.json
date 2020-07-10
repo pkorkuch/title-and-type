@@ -1,6 +1,18 @@
 {
   "name": "title-and-type",
+  "description": "A static site generator.",
+  "keywords": [
+    "static",
+    "static site",
+    "generator",
+    "blog"
+  ],
+  "homepage": "https://github.com/pkorkuch/title-and-type",
+  "bugs": {
+    "url": "https://github.com/pkorkuch/title-and-type/issues"
+  },
   "version": "0.0.1",
+  "license": "",
   "private": true,
   "scripts": {
     "build": "./bin/build"
@@ -10,9 +22,15 @@
     "front-matter": "^4.0.2",
     "jsdom": "^16.2.2",
     "marked": "^1.1.0",
+    "normalize.css": "^8.0.1",
+    "sass": "^1.26.9",
     "tailwindcss": "^1.4.4"
   },
   "devDependencies": {
-    "@types/node": "^14.0.14"
+    "@types/node": "^14.0.14",
+    "@typescript-eslint/eslint-plugin": "^3.5.0",
+    "@typescript-eslint/parser": "^3.5.0",
+    "eslint": "^7.4.0",
+    "nodemon": "^2.0.4"
   }
 }
