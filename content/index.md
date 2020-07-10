@@ -1,0 +1,14 @@
+<article>
+<hgroup>
+
+# Title & Type
+### a static site generator
+
+</hgroup>
+
+Modernipsum dolor sit amet precisionism socialist realism, mannerism merovingian lowbrow illusionism performance art, scuola romana gründerzeit pre-raphaelites realism. Cloisonnism neo-fauvism neue slowenische kunst romanesque fluxus, post-structuralism synchromism avant-garde neo-geo new media art, art deco incoherents dadaism. Cobra deformalism action painting hudson river school precisionism, luminism nonconformism purism, kinetic art neue slowenische kunst manierism. Nonconformism street art illusionism postmodern art fluxus luminism incoherents, rococo hyperrealism romanesque perspectivism. Cubism fauvism stuckism structuralism intervention art fluxus luminism young british artists, new objectivity social realism existentialism suprematism les nabis. Young british artists aestheticism renaissance intervention art mannerism, stuckism international eclecticism.
+
+Tachism neo-dada video game art pop art dadaism stuckism international, jugendstil post-minimalism deformalism manierism formalism, merovingian stuckism international die brücke divisionism. Street art renaissance tachism synthetism fluxus art nouveau, post-structuralism modern art naturalism stuckism international systems art renaissance, rococo art deco secularism post-minimalism. Expressionism naturalism pointilism new objectivity scuola romana abstract expressionism, social realism neoism neo-classicism photorealism orphism romanesque, russian futurism classicism outsider art tachisme. Classicism luminism neoism art nouveau secularism historicism orphism gründerzeit suprematism, synthetism art deco post-structuralism video game art international gothic carolingian. Cloisonnism maximalism fauvism illusionism, neo-fauvism purism, academic secularism.
+
+Pop art minimalism hard-edge painting maximalism orphism, intervention art merovingian die brücke post-minimalism, land art mannerism hard-edge painting. Postmodern art pre-raphaelites hard-edge painting monumentalism superflat suprematism, street art cobra les nabis neo-expressionism, installation art abstract expressionism idealism rayonism. Avant-garde eclecticism avant-garde abstract expressionism vorticism expressionism, post-minimalism formalism color field painting renaissance orphism der blaue reiter, land art idealism multiculturalism precisionism. Lowbrow renaissance gothic art relational art multiculturalism jugendstil, performance art neo-geo avant-garde hudson river school futurism, impressionism neo-fauvism photorealism carolingian. Post-minimalism neo-dada pointilism impressionism romanticism, nonconformism postmodernism expressionism fauvism hyperrealism, mail art gothic art bauhaus.
+</article>
