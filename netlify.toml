@@ -1,0 +1,8 @@
+# This file is public by default:
+# NO SECRETS!
+
+[build]
+
+    publish = "build/"
+
+    command = "node ./bin/build.js"
